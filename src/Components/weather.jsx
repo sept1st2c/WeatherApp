@@ -31,7 +31,7 @@ const Weather = () => {
 
   const searching = async () => {
     const element = document.getElementsByClassName("smallicon");
-    if (element[0].value == "")
+    if (element[0].value === "")
     {
       return 0;
     }
